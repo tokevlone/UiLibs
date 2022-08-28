@@ -40,7 +40,6 @@ end)
 
 ## Creating Toggles
 ```lua
--- Creating Toggles
 local Toggle1 = Section1:CreateToggle("Name", nil, function(State)
 	[action/script]
 end)
