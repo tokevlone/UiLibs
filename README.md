@@ -23,7 +23,6 @@ local Tab1 = Window:CreateTab("Name")
 
 ## Creating Sections
 ```lua
--- Creating Sections
  Section1 = Tab1:CreateSection("Name")
 ```
 
