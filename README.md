@@ -12,7 +12,7 @@ local Config = {
 
 ## Booting The Library
 ``` lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/tokevlone/Vast/main/Library"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/tokevlone/Vast/Ui-Lib/Library"))()
 local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
 ```
 
