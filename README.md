@@ -12,7 +12,7 @@ local Config = {
 -- Replace "Name" with name of exploit/hub window
 ```
 
-## Botting The Library
+## Booting The Library
 ``` lua
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/tokevlone/Vast/main/Library"))()
 local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
