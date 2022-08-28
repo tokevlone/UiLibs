@@ -73,3 +73,22 @@ local Colorpicker1 = Section1:CreateColorpicker("Name", function(Color)
 	[action/script]
 end)
 ```
+
+
+## Creating Ui Toggle
+```lua
+local Toggle1 = Section1:CreateToggle("Name", nil, function(State)
+	Window:Toggle(State)
+end)
+Toggle3:CreateKeybind(tostring(Config.Keybind):gsub("Enum.KeyCode.", ""), function(Key)
+	Config.Keybind = Enum.KeyCode[Key]
+end)
+```
+
+## Creating Ui Color Changer
+```lua
+local Colorpicker1 = Section1:CreateColorpicker("Name", function(Color)
+	Window:ChangeColor(Color)
+end)
+Colorpicker1:UpdateColor(Config.Color)
+```
