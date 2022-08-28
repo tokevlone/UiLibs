@@ -1,5 +1,5 @@
 # Vast
-How to use the vast ui library
+How to use the vast ui library [OpenSource] [Not for skids]
 
 ## Config
 ```lua
