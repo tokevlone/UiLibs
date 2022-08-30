@@ -12,7 +12,7 @@ local Config = {
 
 ## Booting The Library
 ``` lua
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/tokevlone/Vast/Ui-Lib/Library"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/tokevlone/Vast/Main/Library"))()
 local Window = Library:CreateWindow(Config, game:GetService("CoreGui"))
 ```
 
@@ -91,3 +91,6 @@ local Colorpicker1 = Section1:CreateColorpicker("Name", function(Color)
 end)
 Colorpicker1:UpdateColor(Config.Color)
 ```
+
+#  fuck skids
+# made by token#9114
